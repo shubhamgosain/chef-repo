@@ -1,0 +1,41 @@
+{
+  "name": "cron-delvalidate",
+  "description": "Installs/Configures cron-delvalidate",
+  "long_description": "cron-delvalidate Cookbook\n=========================\nThis is a basic cookbook featuring a basic cron for running chef-client every hour on your node(s) and deleteing the validation.pem file for security reasons. It is made to be used as an example for downloading cookbooks for the \"Setting Up a Chef Server, Workstation, and Node on Ubuntu 14.04\" guide on Linode.com.\n\nUsage\n-----\n\n#### cron-delvalidate::default\n\nIncluded the 1-hour cron for running chef-client and deletes the validation.pem file from your nodes.\n\nLicense and Authors\n-------------------\nElle Krout<br>\nTechincal Writer<br>\nLinode.com\n",
+  "maintainer": "YOUR_COMPANY_NAME",
+  "maintainer_email": "YOUR_EMAIL",
+  "license": "All rights reserved",
+  "platforms": {
+
+  },
+  "dependencies": {
+
+  },
+  "recommendations": {
+
+  },
+  "suggestions": {
+
+  },
+  "conflicting": {
+
+  },
+  "providing": {
+
+  },
+  "replacing": {
+
+  },
+  "attributes": {
+
+  },
+  "groupings": {
+
+  },
+  "recipes": {
+
+  },
+  "version": "0.1.3",
+  "source_url": "",
+  "issues_url": ""
+}
