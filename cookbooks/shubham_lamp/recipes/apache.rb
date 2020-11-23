@@ -46,6 +46,11 @@ node["lamp_stack"]["sites"].each do |sitename, data|
   	end
 end
 
+execute "keepalive" do
+        command "sed -i 's/KeepAlive On/KeepAlive Off/g' /etc/apache2/apache2.conf"
+        action :run
+end
+
 execute "enable-prefork" do
 	command "a2enmode mpm_prefork"
 	action :nothing
